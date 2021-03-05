@@ -10,7 +10,7 @@ import sklearn.utils as utls
 import scipy.stats as sta
 
 
-with open("linreg.pickle","rb") as file:
+with open("./data/data1.pickle","rb") as file:
     dataTrain, dataTest = pickle.load(file)
     
 
