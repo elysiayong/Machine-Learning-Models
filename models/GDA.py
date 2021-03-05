@@ -21,7 +21,7 @@ def plot_data(X, T):
 
 def print_accuracy(accuracy1, accuracy2):
     print("sklearn accuracy: {}".format(accuracy1))
-    print("peronal model accuracy: {}".format(accuracy2))
+    print("model accuracy: {}".format(accuracy2))
     print("accuracy difference: {}".format(abs(accuracy1 - accuracy2)))
 
 
